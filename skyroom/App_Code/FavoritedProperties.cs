@@ -3,15 +3,49 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-/// <summary>
-/// Summary description for PropertyRoom
-/// </summary>
+
 public class FavoritedProperties
 {
+    private int FavTenantID;
+    private int TenantID;
+    private int HostID;
+
     public FavoritedProperties()
     {
-        //
-        // TODO: Add constructor logic here
-        //
+        setFavTenantID(FavTenantID);
+        setTenantID(TenantID);
+        setHostID(HostID);
+    }
+
+    // Setters
+    public void setFavTenantID(int FavTenantID)
+    {
+        this.FavTenantID = FavTenantID;
+    }
+
+    public void setTenantID(int TenantID)
+    {
+        this.TenantID = TenantID;
+    }
+
+    public void setHostID(int HostID)
+    {
+        this.HostID = HostID;
+    }
+
+    // Getters
+    public int getFavTenantID()
+    {
+        return this.getFavTenantID();
+    }
+
+    public int getTenantID()
+    {
+        return this.getTenantID();
+    }
+
+    public int getHostID()
+    {
+        return this.getHostID();
     }
 }
