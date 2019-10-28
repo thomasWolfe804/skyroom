@@ -10,8 +10,6 @@ public class Account
 {
     public Account()
     {
-        //
-        // TODO: Add constructor logic here
-        //
+        
     }
 }
